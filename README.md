@@ -39,7 +39,7 @@ MaintSight analyzes your git repository's commit history and code patterns to pr
 
 ```bash
 # Install globally
-npm install -g maintsight
+npm install -g @techdebtgpt/maintsight
 
 # Run predictions on current directory (generates interactive HTML report)
 maintsight predict

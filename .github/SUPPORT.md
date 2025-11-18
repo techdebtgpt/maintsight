@@ -78,7 +78,7 @@ maintsight predict --branch your-branch
 
 ```bash
 # Install globally with proper permissions
-sudo npm install -g maintsight
+sudo npm install -g @techdebtgpt/maintsight
 # or
 npm install -g maintsight --prefix ~/.npm-global
 ```
