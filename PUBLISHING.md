@@ -114,7 +114,7 @@ The workflow should now work because:
 1. Verify on npm: https://www.npmjs.com/package/maintsight
 2. Test installation:
    ```bash
-   npm install -g maintsight
+   npm install -g @techdebtgpt/maintsight
    maintsight --version
    ```
 3. Update README with npm badge:

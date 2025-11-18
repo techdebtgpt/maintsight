@@ -5,7 +5,7 @@ MaintSight provides a programmatic API for integrating maintenance degradation p
 ## Installation
 
 ```bash
-npm install maintsight
+npm install @techdebtgpt/maintsight
 ```
 
 ## Basic Usage

@@ -40,7 +40,7 @@ jobs:
           node-version: '18'
 
       - name: Install MaintSight
-        run: npm install -g maintsight
+        run: npm install -g @techdebtgpt/maintsight
 
       - name: Run risk analysis
         run: |
@@ -80,7 +80,7 @@ maintenance-check:
   stage: test
   image: node:18
   before_script:
-    - npm install -g maintsight
+    - npm install -g @techdebtgpt/maintsight
   script:
     - maintsight predict --threshold 0.1 --format markdown > risk-report.md
   artifacts:
@@ -102,7 +102,7 @@ pipeline {
   stages {
     stage('Maintenance Check') {
       steps {
-        sh 'npm install -g maintsight'
+        sh 'npm install -g @techdebtgpt/maintsight'
         sh 'maintsight predict --format json > risk-report.json'
 
         script {

@@ -20,13 +20,13 @@ You can install MaintSight globally to use it as a command-line tool.
 
 ```bash
 # Using npm
-npm install -g maintsight
+npm install -g @techdebtgpt/maintsight
 
 # Using yarn
-yarn global add maintsight
+yarn global add @techdebtgpt/maintsight
 
 # Using pnpm
-pnpm add -g maintsight
+pnpm add -g @techdebtgpt/maintsight
 ```
 
 ## 🚀 Quick Start

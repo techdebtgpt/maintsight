@@ -186,7 +186,7 @@ jobs:
         with:
           node-version: '18'
 
-      - run: npm install -g maintsight
+      - run: npm install -g @techdebtgpt/maintsight
 
       - name: Check maintenance risk
         run: |
@@ -208,7 +208,7 @@ jobs:
 maintenance-check:
   image: node:18
   script:
-    - npm install -g maintsight
+    - npm install -g @techdebtgpt/maintsight
     - maintsight predict --threshold 0.1 --format markdown
   artifacts:
     reports:

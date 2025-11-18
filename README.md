@@ -59,13 +59,13 @@ maintsight predict -f html -o report.html
 ### Global Installation (Recommended)
 
 ```bash
-npm install -g maintsight
+npm install -g @techdebtgpt/maintsight
 ```
 
 ### Local Installation
 
 ```bash
-npm install maintsight
+npm install @techdebtgpt/maintsight
 ```
 
 ### From Source
